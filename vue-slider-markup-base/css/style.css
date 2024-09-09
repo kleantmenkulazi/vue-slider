@@ -1,0 +1,83 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 5px;
+    color: #26262A;
+}
+
+.carosello {
+    width: 80%;
+    height: 90%;
+    padding: 10px;
+}
+
+.immagini {
+    height: 90%;
+}
+
+.card {
+    height: 80%;
+    text-align: center;
+    /* display: none; */
+}
+
+/* .active {
+    display: block;
+} */
+
+.card>* {
+    margin-bottom: 20px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.bottoni {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#sx {
+    margin-right: 5px;
+}
+
+#dx {
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white
+}
